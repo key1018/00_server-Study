@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8" errorPage="error500.jsp"%> <!-- 에러가 발생할 경우 보여지는 페이지를 생성하여 입력하기 -->
+    pageEncoding="UTF-8"%> <!-- 에러가 발생할 경우 보여지는 페이지를 생성하여 입력하기 -->
 <%@ page import="java.util.ArrayList, java.util.Date" %> <!-- import속성만 따로 기술하는 page지시어 생성 가능 -->
 <!-- 단축키가 안먹으므로 import문은 직접 작성해야함 ','을 통해서 나열 가능 -->
 <!DOCTYPE html>
