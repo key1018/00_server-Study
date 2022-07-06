@@ -4,4 +4,11 @@
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
+  
+      <!-- 500번 오류 발생할 때마다 생성한 오류페이지가 나오도록 설정 -->
+    <error-page>
+    	<error-code>500</error-code>
+    	<location>/views/error500.jsp</location>
+    </error-page>
+    
 </web-app>
