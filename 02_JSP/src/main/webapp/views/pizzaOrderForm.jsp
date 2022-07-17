@@ -6,8 +6,14 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
+<style>
+	.wrap{folat:right;}
+</style>
 <body>
 
+<%@ include file="menubar.jsp" %>
+
+<div class=wrap>
 	<h1>피자 주문 페이지</h1>
 	
 	<h2>오늘의 날짜</h2>
@@ -100,6 +106,8 @@
       <input type="reset">
 
    </form>
+   
+   </div>
    
 </body>
 </html>
