@@ -8,13 +8,24 @@
 </head>
 <style>
 	.wrap{folat:right;}
+#menu #menu::before, #menu::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #eb2141;
+    transform: translate3d(-100%,0,0) translate3d(-1px,0,0);
+    transition: transform 0.7s;
+    transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
 </style>
 <body>
 
-<%@ include file="menubar.jsp" %>
 
 <div class=wrap>
-	<h1>피자 주문 페이지</h1>
+	<a id="menu">피자 주문 페이지<a>
 	
 	<h2>오늘의 날짜</h2>
 	<%

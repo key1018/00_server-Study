@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>SideBar sub menus</title>
+</head>
+<body id="body-pd">
+    <div class="l-navbar" id="navbar">
+        <nav class="nav">
+            <div>
+                <div class="nav__brand">
+                    <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                    <a href="#" class="nav__logo">MustEat</a>
+                </div>
+                <div class="nav__list">
+                    <a href="#" class="nav__link active">
+                        <ion-icon name="home-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">Home</span>
+                    </a>
+                    <a href="#" class="nav__link">
+                        <ion-icon name="location-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">Restaurant</span>
+                    </a>
+
+                    <div href="#" class="nav__link collapse">
+                        <ion-icon name="cart-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">Meal Kit</span>
+
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink">Data</a>
+                            <a href="#" class="collapse__sublink">Group</a>
+                            <a href="#" class="collapse__sublink">Members</a>
+                        </ul>
+                    </div>
+
+                    <a href="#" class="nav__link">
+                        <ion-icon name="flash-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">MZ Pick</span>
+                    </a>
+
+                    <div href="#" class="nav__link collapse">
+                        <ion-icon name="checkmark-circle-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">Editor Pick</span>
+
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink">Data</a>
+                            <a href="#" class="collapse__sublink">Group</a>
+                            <a href="#" class="collapse__sublink">Members</a>
+                        </ul>
+                    </div>
+
+                    <a href="#" class="nav__link">
+                        <ion-icon name="gift-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">Event</span>
+                    </a>
+                </div>
+                <a href="#" class="nav__link">
+                    <ion-icon name="call-outline" class="nav__icon"></ion-icon>
+                    <span class="nav_name">Contact</span>
+                </a>
+            </div>
+            여기에 푸터바 넣으면 되겠당
+        </nav>
+    </div>
+
+    <!-- IONICONS -->
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <!-- JS -->
+    <script src="assets/js/main.js"></script>
+
+    <h1>메인화면</h1>
+    
+</body>
+</html>

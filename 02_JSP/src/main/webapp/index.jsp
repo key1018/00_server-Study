@@ -72,12 +72,17 @@
 	<h2>피자주문페이지(jsp) --> 주문요청 --> 주문요청을 받아서 처리해주는 Servlet --> 피자결제페이지(응답jsp)</h2>
 	<a href="views/pizzaOrderForm.jsp">피자 주문 페이지</a>
 	
+	<h2>피자주문페이지(jsp) --> 주문요청 --> 주문요청을 받아서 처리해주는 Servlet --> 피자결제페이지(응답jsp)</h2>
+	<a href="views/pizzaPayment.jsp">피자 주문 페이지</a>
+	
 	<h2>메뉴파 샘플 페이지1</h2>
 	<a href="views/menubar.jsp">메뉴파 샘플 페이지1</a>
 	
 	<h2>메뉴파 샘플 페이지2</h2>
 	<a href="views/menubar2.jsp">메뉴파 샘플 페이지2</a>
 	
+	<h2>메뉴파 샘플 페이지2</h2>
+	<a href="views/test_menubar.jsp">메뉴파 샘플 페이지2</a>
 		
 	<h2>오픈페이지 샘플1</h2>
 	<a href="views/openPage1.jsp">오픈페이지 샘플1</a>

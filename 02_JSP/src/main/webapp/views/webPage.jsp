@@ -30,12 +30,17 @@
     </div>
     <div id="navigator">
 
-	<%@include file="menubar.jsp" %>
+	
 	
     </div>
     <div id="content">
-        <div id="content-1"></div>
-        <div id="content-2"></div>
+        <div id="content-1">
+
+
+        </div>
+        <div id="content-2">
+
+        </div>
         <div id="content-3">
 
          <!-- 로그인 정보를 전달하는 form 생성 -->
