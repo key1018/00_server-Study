@@ -4,23 +4,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="<%=contextPath %>/resources/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="<%=contextPath %>/resources/css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="<%=contextPath %>/resources/css/style-dustu.css" />
+		<link rel="stylesheet" type="text/css" href="<%=contextPath %>/resources/css/pater.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>		
+	
 <title>Insert title here</title>
 </head>
-<style>
-	.wrap{folat:right;}
-#menu #menu::before, #menu::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #eb2141;
-    transform: translate3d(-100%,0,0) translate3d(-1px,0,0);
-    transition: transform 0.7s;
-    transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-}
-</style>
 <body>
 
 
